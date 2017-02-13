@@ -11,8 +11,8 @@
     "type": "git",
     "url": "https://github.com/kazup01/bcode.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "kazup",
+  "license": "MIT",
   "dependencies": {
     "body-parser": "^1.16.1",
     "css-loader": "^0.26.1",
