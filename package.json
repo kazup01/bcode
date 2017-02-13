@@ -1,12 +1,15 @@
 {
   "name": "bcode",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
     "start": "babel-node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kazup01/bcode.git"
   },
   "author": "",
   "license": "ISC",
