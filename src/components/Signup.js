@@ -24,7 +24,7 @@ export default React.createClass({
         });
       });
     return(
-      <div>
+      <div className="content">
       <h3>Enter your account information</h3>
       <p>ID</p><input id="user-id" type="text" />
       <p>Name</p><input id="user-name" type="text" />

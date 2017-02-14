@@ -13745,7 +13745,7 @@ exports.default = _react2.default.createClass({
     });
     return _react2.default.createElement(
       'div',
-      null,
+      { className: 'content' },
       _react2.default.createElement(
         'h3',
         null,
@@ -13832,7 +13832,7 @@ exports = module.exports = __webpack_require__(124)();
 
 
 // module
-exports.push([module.i, ".active {\n  color: green;\n}\n\nul.no-li-indent {\n  list-style: none;\n  margin-left: -20px;\n}\n\n#list li{\n  margin: 15px;\n  padding: 15px;\n  display: inline-block;\n}\n\n.container{\n  width: 100%;\n    position: relative;\n    height: auto !important;\n    height: 100%;\n    min-height: 100%;\n}\n", ""]);
+exports.push([module.i, ".active {\n  color: green;\n}\n\nul.no-li-indent {\n  list-style: none;\n  margin-left: -20px;\n}\n\n#list li{\n  margin: 15px;\n  padding: 15px;\n  display: inline-block;\n}\n\n.container{\n  width: 100%;\n    position: relative;\n    height: auto !important;\n    height: 100%;\n    min-height: 100%;\n}\n\n.content {\n  color: #9a9ca2;\n}\n", ""]);
 
 // exports
 
