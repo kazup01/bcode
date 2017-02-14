@@ -69,7 +69,6 @@ app.post('/users', function (req, res) {
 
 });
 
-/*一旦置く
 app.post('/login', function(req, res, next){
   connection.query('USE bcode', function(err){
     if (err) throw err;
@@ -87,26 +86,6 @@ app.post('/login', function(req, res, next){
     })
   });
 });
-*/
-
-app.post('/login', function(req, res, next){
-  connection.query('USE bcode', function(err){
-    if (err) throw err;
-    var email = req.body.email;
-    var password = req.body.password;
-    var query = 'SELECT user_id FROM users WHERE email = "' + email + '" AND password = "' + password + '" LIMIT 1';
-    connection.query(query, function(err, rows){
-      var userId = rows.length? rows[0].user_id:false;
-      if(userId){
-        req.session.user_id = userId;
-        console.log('login complete!');
-      }else{
-        console.log('ログインできてねえお');
-      }
-    })
-  });
-});
-
 
 
 //http://localhost:3000/helloにアクセスすると、HelloをJSONで吐き出す
