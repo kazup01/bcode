@@ -13540,14 +13540,47 @@ exports.default = _react2.default.createClass({
   displayName: 'Login',
 
   render: function render() {
+    $(document).ready(function () {
+      $('#user-submit').click(function () {
+        var payload = {
+          userId: $('#user-id').val(),
+          email: $('#user-email').val(),
+          password: $('#user-password').val()
+        };
+
+        $.ajax({
+          url: "/login",
+          type: "POST",
+          contentType: "application/json",
+          processData: false,
+          data: JSON.stringify(payload),
+          complete: function complete(data) {
+            $('#output').html(data.responseText);
+          }
+        });
+      });
+    });
     return _react2.default.createElement(
       'div',
       null,
       _react2.default.createElement(
-        'h3',
+        'p',
         null,
-        'login page'
-      )
+        'email'
+      ),
+      _react2.default.createElement('input', { id: 'user-email', type: 'text' }),
+      _react2.default.createElement(
+        'p',
+        null,
+        'password'
+      ),
+      _react2.default.createElement('input', { id: 'user-password', type: 'password' }),
+      _react2.default.createElement(
+        'button',
+        { id: 'user-submit', type: 'Submit' },
+        'Submit'
+      ),
+      _react2.default.createElement('p', { id: 'output' })
     );
   }
 });
