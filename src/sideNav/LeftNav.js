@@ -3,12 +3,12 @@ import Form from 'muicss/lib/react/form'
 import Button from 'muicss/lib/react/button'
 import Input from 'muicss/lib/react/input'
 import Textarea from 'muicss/lib/react/textarea'
-
+import './LeftNav.css'
 
 export default React.createClass({
   render(){
     return(
-      <div>
+      <div className="leftNav">
         <h2>Serach stocks</h2>
         <div className="form">
         <Form>

@@ -1,0 +1,9 @@
+.couter {
+    position: relative;
+    z-index: -1;
+    text-align: center;
+    width: 350px;
+    height: 840px;
+    display: table-cell;
+    background-color: #f6f6f6;
+}

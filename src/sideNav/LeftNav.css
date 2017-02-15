@@ -1,0 +1,7 @@
+.leftNav{
+  height: 100%;
+  width: 270px;
+  display: table-cell;
+  background-color: #1f2532;
+  /*box-shadow: 3px 2px 15px 0 rgba(0, 0, 0, 0.5);*/
+}

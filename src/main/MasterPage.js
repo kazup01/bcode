@@ -9,8 +9,6 @@ export default React.createClass({
       <div className="container">
         <ul className="no-li-indent" id="list">
           <li><IndexLink to="/" activeClassName="active">Home</IndexLink></li>
-          <li><NavLink to="/counter">Counter</NavLink></li>
-          <li><NavLink to="/search">Search</NavLink></li>
           <li><NavLink to="/login">Login</NavLink></li>
           <li><NavLink to="/signup">Signup</NavLink></li>
         </ul>

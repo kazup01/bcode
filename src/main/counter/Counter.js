@@ -12,7 +12,7 @@ export default class Counter extends Component {
 
   render() {
     return (
-      <div>
+      <div className="counter">
         <p>Count: {this.state.count}</p>
         <Button variant="flat" onClick={e => this.increment()}>Increment</Button>
       </div>

@@ -1,7 +1,6 @@
 import express from 'express'
 import React from 'react'
 import ReactDOMServer from 'react-dom/server'
-import Counter from './components/Counter'
 import path from 'path'
 import mysql from 'mysql'
 import bodyParser from 'body-parser'
