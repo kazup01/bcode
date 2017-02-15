@@ -14181,7 +14181,7 @@ exports = module.exports = __webpack_require__(74)();
 
 
 // module
-exports.push([module.i, ".leftNav{\n  height: 100%;\n  width: 270px;\n  display: table-cell;\n  background-color: #1f2532;\n  /*box-shadow: 3px 2px 15px 0 rgba(0, 0, 0, 0.5);*/\n}\n", ""]);
+exports.push([module.i, ".leftNav{\n  height: 900px;\n  width: 270px;\n  display: table-cell;\n  background-color: #1f2532;\n  /*box-shadow: 3px 2px 15px 0 rgba(0, 0, 0, 0.5);*/\n}\n", ""]);
 
 // exports
 
