@@ -69,6 +69,7 @@ app.post('/users', function (req, res) {
 
 });
 
+/*
 app.post('/login', function(req, res, next){
   connection.query('USE bcode', function(err){
     if (err) throw err;
@@ -86,7 +87,7 @@ app.post('/login', function(req, res, next){
     })
   });
 });
-
+*/
 
 //http://localhost:3000/helloにアクセスすると、HelloをJSONで吐き出す
 app.get('/hello', function (req, res, next) {
