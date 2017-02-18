@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 import Button from 'muicss/lib/react/button'
+import './Counter.css'
 
 export default class Counter extends Component {
 
@@ -12,7 +13,7 @@ export default class Counter extends Component {
 
   render() {
     return (
-      <div className="counter">
+      <div className="Counter">
         <p>Count: {this.state.count}</p>
         <Button variant="flat" onClick={e => this.increment()}>Increment</Button>
       </div>

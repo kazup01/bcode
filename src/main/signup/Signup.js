@@ -1,4 +1,8 @@
 import React from 'react'
+import Form from 'muicss/lib/react/form'
+import Button from 'muicss/lib/react/button'
+import Input from 'muicss/lib/react/input'
+import './Signup.css'
 
 export default React.createClass({
     render: function(){
@@ -24,13 +28,13 @@ export default React.createClass({
         });
       });
     return(
-      <div className="content">
+      <div className="Signup">
       <h3>Enter your account information</h3>
-      <p>ID</p><input id="user-id" type="text" />
-      <p>Name</p><input id="user-name" type="text" />
-      <p>Email</p><input id="user-email" type="text" />
-      <p>Password</p><input id="user-password" type="password" />
-      <button id="user-submit" type="submit">Submit</button>
+      <p>ID</p><Input id="user-id" type="text" className="Input" />
+      <p>Name</p><Input id="user-name" type="text" className="Input" />
+      <p>Email</p><Input id="user-email" type="text" className="Input" />
+      <p>Password</p><Input id="user-password" type="password" className="Input" />
+      <Button id="user-submit" type="submit">Submit</Button>
       <p id="output"></p>
       </div>
     )

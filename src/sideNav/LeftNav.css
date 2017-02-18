@@ -1,7 +1,7 @@
 .leftNav{
-  height: 900px;
-  width: 270px;
+  position: relative;
+  z-index: -1;
   display: table-cell;
-  background-color: #1f2532;
+  background-color: #ffffff;
   /*box-shadow: 3px 2px 15px 0 rgba(0, 0, 0, 0.5);*/
 }

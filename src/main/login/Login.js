@@ -1,4 +1,7 @@
 import React from 'react'
+import Form from 'muicss/lib/react/form'
+import Button from 'muicss/lib/react/button'
+import Input from 'muicss/lib/react/input'
 
 export default React.createClass({
   render: function(){
@@ -24,9 +27,9 @@ export default React.createClass({
     });
     return(
       <div>
-      <p>email</p><input id="user-email" type="text" />
-      <p>password</p><input id="user-password" type="password" />
-      <button id="user-submit" type="Submit">Submit</button>
+      <p>email</p><Input id="user-email" type="text" />
+      <p>password</p><Input id="user-password" type="password" />
+      <Button id="user-submit" type="Submit">Submit</Button>
       <p id="output"></p>
       </div>
     )
